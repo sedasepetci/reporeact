@@ -17,10 +17,10 @@ export default function Hero() {
       >
         {/* Slide 1 */}
         <SwiperSlide>
-          <div
-            className="h-screen bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/images/slide1.jpg')" }}
-          >
+         <div
+  className="h-screen bg-cover bg-center flex items-center"
+  style={{ backgroundImage: "url('/images/slider/slider1.png')" }}
+>
             <div className="max-w-3xl px-8 text-white">
               <h1 className="text-5xl font-light leading-tight">
                 Zarafet Doğayla <br /> Buluştuğunda
@@ -35,25 +35,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
 
-        {/* Slide 2 */}
-        <SwiperSlide>
-          <div
-            className="h-screen bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/images/slide2.jpg')" }}
-          >
-            <div className="max-w-3xl px-8 text-white">
-              <h1 className="text-5xl font-light leading-tight">
-                Modern Tasarım <br /> Minimal Estetik
-              </h1>
-              <p className="mt-4 text-lg text-gray-200">
-                Sadelik ve şıklığın birleştiği modern koleksiyon.
-              </p>
-              <button className="mt-6 px-6 py-2 border border-white text-white hover:bg-white hover:text-black transition">
-                İncele →
-              </button>
-            </div>
-          </div>
-        </SwiperSlide>
+       
       </Swiper>
 
       {/* Navigation Buttons */}
