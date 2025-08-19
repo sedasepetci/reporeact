@@ -1,0 +1,9 @@
+# Node.js bağımlılıkları
+node_modules/
+
+# Next.js build ve cache dosyaları
+.next/
+out/
+
+# Ortam değişkenleri
+.env*
