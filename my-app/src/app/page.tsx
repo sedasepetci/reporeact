@@ -1,6 +1,7 @@
 import Hero from "@/components/herobanner";
 import BigBanner from "@/components/bigbanner";
 import DetailBanner from "@/components/detailbanner";
+import Description from "@/components/description";
 
 const productsData = [
   { id: 1, name: "Coral Coffee Table", price: "₺ 46.500,00", image: "/images/detail/detailbanner1.png" },
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <BigBanner/>
       <DetailBanner products={productsData} />
+      <Description/>
     </main>
   );
 }
